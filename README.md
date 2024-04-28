@@ -2,7 +2,7 @@
 
 Performance Analyzer is a web application that uses Django for the backend and React.js for the frontend. This project facilitates the analysis and visualization of performance data, allowing users to monitor various performance metrics.
 
-## Setup Guide for Windows PowerShell
+## Setup Guide:
 
 Follow these steps to set up the project on your Windows machine using PowerShell.
 
