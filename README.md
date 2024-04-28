@@ -2,7 +2,7 @@
 
 Performance Analyzer is a web application that uses Django for the backend and React.js for the frontend. This project facilitates the analysis and visualization of performance data, allowing users to monitor various performance metrics.
 
-## Setup Guide for Windows PowerShell
+## Setup Guide:
 
 Follow these steps to set up the project on your Windows machine using PowerShell.
 
@@ -13,24 +13,22 @@ Follow these steps to set up the project on your Windows machine using PowerShel
 
 ### Creating a Python Virtual Environment
 
-1. **Install `virtualenv` (if not already installed):**
-   ```bash
-   pip install virtualenv
-   ```
-
-2. **Create a new virtual environment:**
+1. **Navigate to the virtual environment:**
    ```bash
    # Navigate to your project directory
    cd C:\path\to\your\project
 
-   # Create a new virtual environment named 'env'
-   python -m venv env
+   # Navigate to the virtual environment named 'venv'
+   cd venv
    ```
 
-3. **Activate the virtual environment:**
+2. **Activate the virtual environment:**
    ```bash
    # Activate the virtual environment
-   .\env\Scripts\Activate
+   Scripts\activate.ps1
+   
+   # Or
+   Scripts\activate.bat
    ```
 
 ### Installing Django
