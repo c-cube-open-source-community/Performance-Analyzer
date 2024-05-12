@@ -16,12 +16,10 @@ The **Performance Analyzer** is a web application that allows you to analyze per
 1. **Install Python and pip**:
    Make sure you have Python 3.x installed. If not, download and install it from the [official Python website](https://www.python.org/downloads/).
 
-2. **Create a Virtual Environment**:
-   Open your terminal and navigate to the project directory. Then create a virtual environment:
-   ```bash
-   python -m venv venv
-   ```
-
+2. **Navigate to the Virtual Environment**:
+  ```bash
+  cd <path to project folder>
+  ```
 3. **Activate the Virtual Environment**:
    On Windows:
    ```bash
